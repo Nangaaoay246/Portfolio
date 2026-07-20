@@ -1,8 +1,9 @@
 import streamlit as st
-from constants import profile, links, content
+from constants import *
+from components.sidebar import sidebar as sb
 import PIL as image
-import webbrowser
 
+# Configure -------------------------------------------------------------------------------------------------------------------------
 def configure():
     st.set_page_config(
         page_title='Portfolio - Jan Michael Aoay',
@@ -11,6 +12,7 @@ def configure():
         initial_sidebar_state='expanded'
     ) 
 
+# Load CSS -------------------------------------------------------------------------------------------------------------------------
 def load_css():
     st.markdown("""
     <link rel="stylesheet"
@@ -23,58 +25,18 @@ def load_css():
             unsafe_allow_html=True
         )
 
-def sidebar():
-    with st.sidebar:
-        # Profile
-        st.markdown(f"""
-            <div style="text-align: center;">
-                <img src="{profile['image_path']}" style="border-radius: 50%; width: 160px; height: 160px; object-fit: cover; margin-bottom: 1rem;">
-                <h2>{profile['name']}</h2>
-                <p style="color: var(--secondary-color)">{profile['title']}</p>
-            </div>
-        """, unsafe_allow_html=True)
-        
-        #Contact
-        with st.expander("📫 Contact ", expanded=True):
-            st.html(f"""
-                <p>{profile['location']}</p>
-                <p>{profile['phone']}</p>
-                <p>{profile['email']}</p>
-            """)
-
-        social_links()
-
-def social_links():
-    link_html = "".join(
-        f"""
-        <a href="{link['url']}" target="_blank" style="margin: 0 12px; font-size: 2rem; text-decoration: none;">
-            <i class="{link['icon']}"></i>
-        </a>
-        """
-        for link in links)
-
-    st.markdown(
-        f"""
-        <div style="text-align:center; margin:2rem 2rem;">
-            {link_html}
-        </div>
-        """, unsafe_allow_html=True,
-    )
-
-def title():
-    st.title(profile['name'])
-    st.write(f"### {content['caption']}")
-
-def body():
+def aboutMe():
     #About me
-    st.write("👋 Hi there!")
-    st.write("** ## I'm Ike!**")
+    st.header("About Me", divider="green")
+
+    st.write(profile['brief'])
+
 
 def main():
     configure()
     load_css()
-    sidebar()
-    body()
+    sb()
+    aboutMe()
 
 if __name__ == '__main__':
     main()
