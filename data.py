@@ -19,3 +19,7 @@ links = [
         "icon": "fab fa-github"
     },
 ]
+
+content = {
+    "caption": "Python Developer | ML Engineer | Researcher"
+}
