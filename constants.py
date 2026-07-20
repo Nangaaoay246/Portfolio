@@ -42,10 +42,10 @@ skills = [
     {
         "Type": "💻 Frontend",
         "Skills": [
-            "HTML",
+            "HTML/CSS/JavaScript",
             "Tailwind CSS",
-            "JavaScript",
             "Vue.js",
+            "Flutter",
             "XML"
         ]
     },
