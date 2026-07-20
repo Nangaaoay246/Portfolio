@@ -42,7 +42,7 @@ def aboutMe():
             pdf_file = response.content
 
         st.download_button(
-            label="Download my :blue[resume]",
+            label="Download my :green[resume]",
             data=pdf_file,
             file_name="JanMichaelAoay_resume.pdf",
             mime="application/pdf")
