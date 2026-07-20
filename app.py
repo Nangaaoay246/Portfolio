@@ -27,12 +27,32 @@ def load_css():
 def aboutMe():
     #About me
     st.header("About Me", divider="green")
-    st.write(profile['info'])
+
+    col1, col2, col3 = st.columns([1.3 ,0.2, 1])
+
+    with col1:
+        st.markdown(profile['info'])
+
+        with open("assets\JanMichaelJAoay_Resume.pdf", "rb") as file:
+            pdf_file = file.read()
+
+        st.download_button(
+            label="Download my :blue[resume]",
+            data=pdf_file,
+            file_name="JanMichaelAoay_resume.pdf",
+            mime="application/pdf")
+
+    with col3:
+        st.image("assets/nudaeng_laptop.jpg", width=360)
+
 
 if __name__ == '__main__':
     configure()
     load_css()
     sidebar()
-    st.write(profile.keys())
+
+    margin_r,body,margin_l = st.columns([0.4, 3, 0.4])
+    with body:
+        aboutMe()
 
     

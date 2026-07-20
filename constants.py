@@ -1,12 +1,16 @@
-# Personal Info -------------------------------------------------------------------------------------------------------------------------
 profile = {
             'info':
-              """    
-                Starting from physical therapist, to UX designer, to software engineer and product manager... 
-                I am a passionate and curious explorer currently pursuing a Computer Science and Anthropology major at Brandeis University, expected to graduate in May 2025.
-                **I believe in the intersectionality of quantitative and qualitative subjects, that neither approach alone can lead one to the absolute truth.**
+              """ Hi! I'm **Jan Michael**, but most people call me **Ike**. I'm the type of person who starts a "small weekend project" and 
+somehow ends up learning three new frameworks along the way. I enjoy building AI applications, experimenting with 
+machine learning models, and creating software that makes everyday tasks a little easier. \n\n
+
+When I'm away from my keyboard, you'll usually find me reading books on my Kindle, 
+playing strategy RPGs, or thinking about the next project I'd like to build. 
+I love exploring new ideas and believe that curiosity is one of the best qualities 
+an engineer can have.
               """,
             'name':'Jan Michael Aoay', 
+            'title': 'Python Developer & Machine Learning Engineer',
             'image_path': 'https://raw.githubusercontent.com/Nangaaoay246/Portfolio/refs/heads/main/assets/profile.png',
             "location": '🌏 Cavite, Philippines',
             "email": '✉️ aoay.janmichael@gmail.com',
@@ -32,7 +36,7 @@ links = [
     {
         "name": "Google Scholar",
         "url": "https://scholar.google.com/citations?user=ttu2404AAAAJ&hl=en&authuser=2",
-        "icon": "fab fa-graduation-cap"
+        "icon": "fab fa-google"
     },
 ]
 
