@@ -59,7 +59,7 @@ skills = [
         ]
     },
     {
-        "Type": "👾 Frameworks & Tools",
+        "Type": "👾 Tools",
         "Skills": [
             "Git",
             "Pandas",

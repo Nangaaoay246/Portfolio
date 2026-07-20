@@ -27,7 +27,7 @@ def load_css():
 
 def aboutMe():
     #About me
-    st.header("About Me", divider="green")
+    st.header("👋 About Me", divider="green")
 
     col1, col2, col3 = st.columns([1.3 ,0.2, 1])
 
@@ -51,7 +51,7 @@ def aboutMe():
         st.image("assets/nudaeng_laptop.jpg", width=360)
 
 def skillTab():
-    st.header("Skills", divider="green")
+    st.header("🔨 Technical Skills", divider="green")
 
     cards = ""
     for category in skills:
