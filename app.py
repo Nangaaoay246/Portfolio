@@ -1,4 +1,5 @@
 import streamlit as st
+import requests
 from constants import profile
 from components.sidebar import sidebar
 
@@ -33,8 +34,12 @@ def aboutMe():
     with col1:
         st.markdown(profile['info'])
 
-        with open("assets\JanMichaelJAoay_Resume.pdf", "rb") as file:
-            pdf_file = file.read()
+        url = "https://github.com/Nangaaoay246/Portfolio/raw/main/assets/JanMichaelJAoay_Resume.pdf"
+
+        response = requests.get(url)
+
+        if response.status_code == 200:
+            pdf_file = response.content
 
         st.download_button(
             label="Download my :blue[resume]",
