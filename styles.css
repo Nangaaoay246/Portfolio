@@ -4,6 +4,7 @@
     --accent-color: #338a53;          
     --text-light: #f8fafc;             
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.15);
+    --border-color: rgba(128, 128, 128, 0.25);
 }
 
 
@@ -16,13 +17,20 @@
 .skills-card {
     background: var(--secondary-background-color);
     color: var(--text-color);
-    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;     
     padding: 1.5rem;
     margin-bottom: 1.5rem;
-    border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
-    box-shadow: var(--shadow);
     transition: all .3s ease;
 }
+
+
+
+.skills-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.20);
+}
+
 
 .skills-card h3{
     margin-bottom: .8rem;
