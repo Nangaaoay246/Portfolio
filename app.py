@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from constants import profile, skills
+from constants import *
 from components.sidebar import sidebar
 
 # Configure -------------------------------------------------------------------------------------------------------------------------
