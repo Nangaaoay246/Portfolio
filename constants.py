@@ -21,7 +21,7 @@ links = [
     {
         "name": "Google Scholar",
         "url": "https://scholar.google.com/citations?user=ttu2404AAAAJ&hl=en&authuser=2",
-        "icon": "fab fa-google"
+        "icon": "fab fa-graduation-cap"
     },
 ]
 

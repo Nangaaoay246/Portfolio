@@ -1,5 +1,5 @@
 import streamlit as st
-from data import profile, links, content
+from constants import profile, links, content
 import PIL as image
 import webbrowser
 
@@ -61,14 +61,14 @@ def social_links():
         """, unsafe_allow_html=True,
     )
 
-def body():
-    #Title
+def title():
     st.title(profile['name'])
     st.write(f"### {content['caption']}")
-  
+
+def body():
     #About me
-    st.write("### 👋 Hi there!")
-    st.write("")
+    st.write("👋 Hi there!")
+    st.write("** ## I'm Ike!**")
 
 def main():
     configure()
