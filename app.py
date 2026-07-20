@@ -25,14 +25,16 @@ def load_css():
 
 def sidebar():
     with st.sidebar:
+        # Profile
         st.markdown(f"""
             <div style="text-align: center;">
                 <img src="{profile['image_path']}" style="border-radius: 50%; width: 160px; height: 160px; object-fit: cover; margin-bottom: 1rem;">
                 <h2>{profile['name']}</h2>
-                <p style="color: var(--accent-color)">{profile['title']}</p>
+                <p style="color: var(--secondary-color)">{profile['title']}</p>
             </div>
         """, unsafe_allow_html=True)
         
+        #Contact
         with st.expander("📫 Contact ", expanded=True):
             st.html(f"""
                 <p>{profile['location']}</p>
@@ -60,8 +62,12 @@ def social_links():
     )
 
 def body():
-    st.title(f'**{profile['name']}**')
-    st.write(f'###  {content['caption']}')
+    #Title
+    st.title(profile['name'])
+    st.write(f"### {content['caption']}")
+  
+    #About me
+    st.write("### 👋 Hi there!")
 
 def main():
     configure()
