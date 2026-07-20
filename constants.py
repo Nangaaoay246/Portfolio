@@ -87,5 +87,12 @@ Experience = [[":green[Philtech Inc.] | Offshore IT Services", "Pharmacy Technol
               - Directed the planning and execution of a community outreach program in partnership with local LGUs, coordinating with government stakeholders to reach **100+ community members**
               - Led end-to-end organization of an inter-university HackerRank pair-programming competition (project planning, platform setup, and delegate management) for **24 participants**, including **14 delegates** from external universities.
               """, 
-              "Facebook Page", "https://www.facebook.com/ACOMSSofficial"],]
+              "Facebook Page", "https://www.facebook.com/ACOMSSofficial"],
+              [":green[AWS Student Builder Group - Adamson University] | Organization", "Marketing Associate", 
+              "August 2024 – May 2025", "Adamson University, Manila", 
+              """
+              - Analyzed Meta page data to create **performance reports** that translated engagement metrics into clear, actionable insights for organizational decision-making.
+              - Used **data storytelling** techniques to communicate audience trends and campaign outcomes, enabling more informed content and outreach strategies.
+              """, 
+              "Facebook Page", "https://www.facebook.com/awssbgadamsonuniversity"],]
     
