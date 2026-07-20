@@ -1,7 +1,6 @@
 import streamlit as st
-from constants import *
-from components.sidebar import sidebar as sb
-import PIL as image
+from constants import profile
+from components.sidebar import sidebar
 
 # Configure -------------------------------------------------------------------------------------------------------------------------
 def configure():
@@ -28,15 +27,12 @@ def load_css():
 def aboutMe():
     #About me
     st.header("About Me", divider="green")
-
-    st.write(profile['brief'])
-
-
-def main():
-    configure()
-    load_css()
-    sb()
-    aboutMe()
+    st.write(profile['info'])
 
 if __name__ == '__main__':
-    main()
+    configure()
+    load_css()
+    sidebar()
+    st.write(profile.keys())
+
+    
