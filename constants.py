@@ -1,3 +1,4 @@
+# Profile -------------------------------------------------------------------------------------------------------------------------------------
 profile = {
             'info':
               """ Hi! I'm **Jan Michael**, but most people call me **Ike**. I'm the type of person who starts a "small weekend project" and 
