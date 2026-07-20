@@ -1,4 +1,4 @@
-from constants import *
+from constants import profile, links
 import streamlit as st
 
 def sidebar():
