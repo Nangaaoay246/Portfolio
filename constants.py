@@ -72,7 +72,7 @@ skills = [
 ]
 
 # Experience -----------------------------------------------------------------------------------------------------------------------------
-Experience = [[":green[Philtech Inc.] | Offshore IT Services", "Pharmacy Technology & Engineering Internr",  
+Experience = [[":green[Philtech Inc.] | Offshore IT Services", "Pharmacy Technology & Engineering Intern",  
               "March 2026 – June 2026", "BGC, Taguig City",  
               """  
               - Secured a direct internship placement at the Philtech Innovathon for Universities by designing a multi-step **agentic AI workflow** using **RAG-based LangChain** to automate near-expiry inventory detection and generate personalized recipe recommendations. 
@@ -88,7 +88,7 @@ Experience = [[":green[Philtech Inc.] | Offshore IT Services", "Pharmacy Technol
               - Led end-to-end organization of an inter-university HackerRank pair-programming competition (project planning, platform setup, and delegate management) for **24 participants**, including **14 delegates** from external universities.
               """, 
               "Facebook Page", "https://www.facebook.com/ACOMSSofficial"],
-              [":green[AWS Student Builder Group - Adamson University] | Organization", "Marketing Associate", 
+              [":green[AWS Student Builder Group - Adamson University] | School Organization", "Marketing Associate", 
               "August 2024 – May 2025", "Adamson University, Manila", 
               """
               - Analyzed Meta page data to create **performance reports** that translated engagement metrics into clear, actionable insights for organizational decision-making.
