@@ -1,7 +1,7 @@
 profile = {
             'info':
               """ Hi! I'm **Jan Michael**, but most people call me **Ike**. I'm the type of person who starts a "small weekend project" and 
-somehow ends up learning three new frameworks along the way. I enjoy building AI applications, experimenting with 
+somehow ends up learning three(?!) new frameworks along the way. I enjoy building AI applications, experimenting with 
 machine learning models, and creating software that makes everyday tasks a little easier. \n\n
 
 When I'm away from my keyboard, you'll usually find me reading books on my Kindle, 
@@ -14,11 +14,7 @@ an engineer can have.
             'image_path': 'https://raw.githubusercontent.com/Nangaaoay246/Portfolio/refs/heads/main/assets/profile.png',
             "location": '🌏 Cavite, Philippines',
             "email": '✉️ aoay.janmichael@gmail.com',
-            "phone": '📞 0976 339 2122',
-            'skills':['Python','Java','Javascript','Typescript','Shell','HTML & CSS',
-                    'React','Node.js','PySpark','Docker','Kubernetes','MongoDB',
-                    'PostgreSQL','MySQL','SQLite','AWS','Git','LangGraph','fastAPI','Pinecone',
-                    'RAG', 'Mcp','LLM','REST api','HTTP'],
+            "phone": '📞 0976 339 2122'
         }
 
 # Social Media Links ------------------------------------------------------------------------------------------------------------------------
@@ -40,6 +36,38 @@ links = [
     },
 ]
 
-content = {
-    "caption": "Python Developer | ML Engineer | Researcher"
-}
+# Skills -----------------------------------------------------------------------------------------------------------------------------------
+skills = [
+    {
+        "Type": "💻 Frontend",
+        "Skills": [
+            "HTML",
+            "Tailwind CSS",
+            "JavaScript",
+            "Vue.js",
+            "XML"
+        ]
+    },
+    {
+        "Type": "⚙️ Backend",
+        "Skills": [
+            "Python",
+            "Java",
+            "C#",
+            "SQL",
+            "PHP"
+        ]
+    },
+    {
+        "Type": "👾 Frameworks & Tools",
+        "Skills": [
+            "Git",
+            "Pandas",
+            "NumPy",
+            "Scikit-learn",
+            "LangChain"
+        ]
+    }
+]
+
+    

@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from constants import profile
+from constants import profile, skills
 from components.sidebar import sidebar
 
 # Configure -------------------------------------------------------------------------------------------------------------------------
@@ -50,8 +50,36 @@ def aboutMe():
     with col3:
         st.image("assets/nudaeng_laptop.jpg", width=360)
 
+def skillTab():
+    st.header("Skills", divider="green")
+
+    cards = ""
+    for category in skills:
+        bullets = "".join(
+            f"<li>{skill}</li>"
+            for skill in category["Skills"]
+        )
+
+        cards += f"""
+        <div class="skills-card">
+            <h3>{category['Type']}</h3>
+            <ul>
+                {bullets}
+            </ul>
+        </div>
+        """
+
+    st.markdown(
+        f"""
+        <div class="skills-grid">
+            {cards}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 if __name__ == '__main__':
+
     configure()
     load_css()
     sidebar()
@@ -59,5 +87,6 @@ if __name__ == '__main__':
     margin_r,body,margin_l = st.columns([0.4, 3, 0.4])
     with body:
         aboutMe()
+        skillTab()
 
     

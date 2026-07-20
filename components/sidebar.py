@@ -33,7 +33,7 @@ def social_links():
 
     st.markdown(
         f"""
-        <div style="text-align:center; margin:2rem 2rem;">
+        <div style="text-align:center; margin:2rem 2rem; ">
             {link_html}
         </div>
         """, unsafe_allow_html=True,

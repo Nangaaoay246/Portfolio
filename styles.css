@@ -5,3 +5,33 @@
     --text-light: #f8fafc;             /* Kept clean off-white for readability */
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: stretch;
+}
+
+.skills-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.skills-card h3{
+    margin-bottom: .8rem;
+}
+
+.skills-card ul{
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.skills-card li{
+    margin-bottom: .35rem;
+}
