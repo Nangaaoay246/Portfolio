@@ -95,4 +95,3 @@ Experience = [[":green[Philtech Inc.] | Offshore IT Services", "Pharmacy Technol
               - Used **data storytelling** techniques to communicate audience trends and campaign outcomes, enabling more informed content and outreach strategies.
               """, 
               "Facebook Page", "https://www.facebook.com/awssbgadamsonuniversity"],]
-    

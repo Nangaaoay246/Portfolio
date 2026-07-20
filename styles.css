@@ -1,10 +1,11 @@
 :root {
-    --primary-color: #064e3b;          /* Rich Emerald Green (replaces Dark Blue) */
-    --secondary-color: hsl(160, 47%, 23%); /* Muted Slate Green (replaces Muted Blue) */
-    --accent-color: #338a53;           /* Vibrant Mint Green (replaces Sky Blue) */
-    --text-light: #f8fafc;             /* Kept clean off-white for readability */
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --primary-color: #064e3b;          
+    --secondary-color: hsl(160, 47%, 23%);
+    --accent-color: #338a53;          
+    --text-light: #f8fafc;             
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.15);
 }
+
 
 .skills-grid {
     display: grid;
