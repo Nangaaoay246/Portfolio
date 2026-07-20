@@ -71,4 +71,21 @@ skills = [
     }
 ]
 
+# Experience -----------------------------------------------------------------------------------------------------------------------------
+Experience = [[":green[Philtech Inc.] | Offshore IT Services", "Pharmacy Technology & Engineering Internr",  
+              "March 2026 – June 2026", "BGC, Taguig City",  
+              """  
+              - Secured a direct internship placement at the Philtech Innovathon for Universities by designing a multi-step **agentic AI workflow** using **RAG-based LangChain** to automate near-expiry inventory detection and generate personalized recipe recommendations. 
+              - Analyzed and validated **30+ risk assessment reports** across enterprise pharmacy applications, strengthening knowledge of pharmacy system workflows while improving documentation accuracy and supporting audit readiness. 
+              - Collaborated with cross-functional, international pharmacy teams to troubleshoot and resolve **75+ software incidents**, applying structured root-cause analysis to improve workflow efficiency and incident response time.
+              """,  
+              "Company website", "https://www.safewayphiltech.com/"],
+              [":green[Adamson Computer Science Society] | Student Council", "Vice President for External Affairs", 
+              "July 2025 – June 2026", "Adamson University, Manila", 
+              """
+              - Grew event partnerships by **166%** in three months through proactive outreach and stakeholder relationship management, securing sponsorships from local and international technology companies.
+              - Directed the planning and execution of a community outreach program in partnership with local LGUs, coordinating with government stakeholders to reach **100+ community members**
+              - Led end-to-end organization of an inter-university HackerRank pair-programming competition (project planning, platform setup, and delegate management) for **24 participants**, including **14 delegates** from external universities.
+              """, 
+              "Facebook Page", "https://www.facebook.com/ACOMSSofficial"],]
     

@@ -2,6 +2,7 @@ import streamlit as st
 from components.sidebar import sidebar
 from components.aboutMe import aboutMe
 from components.skillsTab import skillTab
+from components.experience import experienceTab
 
 # Configure -------------------------------------------------------------------------------------------------------------------------
 def configure():
@@ -36,5 +37,6 @@ if __name__ == '__main__':
     with body:
         aboutMe()
         skillTab()
+        experienceTab()
 
     
