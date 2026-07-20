@@ -96,4 +96,21 @@ Experience = [[":green[Philtech Inc.] | Offshore IT Services", "Pharmacy Technol
               """, 
               "Facebook Page", "https://www.facebook.com/awssbgadamsonuniversity"],]
 
+# Projects ----------------------------------------------------------------------------------------------------------------------------------------------
+projects = [
+    {
+        "Title": "FinSights",
+        "Image": "https://raw.githubusercontent.com/Nangaaoay246/Portfolio/refs/heads/main/assets/profile.png",
+        "Description": "Financial document parser that extracts transactions from bank statements and enables semantic search using RAG.",
+        "Tech": "Python • Streamlit • LangChain • FAISS",
+        "Link": "https://github.com/..."
+    },
+    {
+        "Title": "AGRID",
+        "Image": "https://raw.githubusercontent.com/Nangaaoay246/Portfolio/refs/heads/main/assets/profile.png",
+        "Description": "AI-powered e-commerce platform that recommends optimal markets for farmers using clustering and geospatial analysis.",
+        "Tech": "Python • Scikit-learn • DBSCAN • Pandas",
+        "Link": "https://github.com/..."
+    },
+]
 

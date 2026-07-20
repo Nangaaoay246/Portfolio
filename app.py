@@ -3,6 +3,7 @@ from components.sidebar import sidebar
 from components.aboutMe import aboutMe
 from components.skillsTab import skillTab
 from components.experience import experienceTab
+from components.projects import projectTab
 
 # Configure -------------------------------------------------------------------------------------------------------------------------
 def configure():
@@ -38,5 +39,6 @@ if __name__ == '__main__':
         aboutMe()
         skillTab()
         experienceTab()
+        projectTab()
 
     
