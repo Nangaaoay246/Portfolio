@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #1a365d;
+    --secondary-color: hsl(211, 47%, 33%);
+    --accent-color: #38bdf8;
+    --text-light: #f8fafc;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* ========= PROJECT CARDS ========= */
+
+.project-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(0,0,0,.1);
+    transition: all .3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.1);
+}
+
+/* ========= EXPERIENCE ========= */
+
+.experience-item {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+    transition: all .3s ease;
+}
+
+.experience-item:hover {
+    transform: translateY(-3px);
+}
+
+/* ========= SIDEBAR ========= */
+
+.profile-name {
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile-title {
+    text-align: center;
+    color: var(--accent-color);
+}
+
+[data-testid="stSidebar"] img {
+    border-radius: 50%;
+    width: 160px; 
+    height: 160px; 
+    object-fit: cover; 
+    margin-bottom: 1rem;
+}
+
+/* ========= BUTTONS ========= */
+
+.stButton button {
+    width: 100%;
+    border-radius: 8px;
+}

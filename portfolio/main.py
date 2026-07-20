@@ -3,15 +3,15 @@ from PIL import Image
 import webbrowser
 
 # Configure
-st.set_page_config(
-    page_title='Portfolio - Jan Michael Aoay',
-    page_icon='👾',
-    layout='wide',
-    initial_sidebar_state='expanded'
-)
+def configure():
+    st.set_page_config(
+        page_title='Portfolio - Jan Michael Aoay',
+        page_icon='👾',
+        layout='wide',
+        initial_sidebar_state='expanded'
+    )
 
 def load_css():
-    """Carrega todos os estilos CSS"""
     st.markdown("""
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <style>
@@ -58,8 +58,25 @@ def load_css():
     """, unsafe_allow_html=True)
 
 def main():
+    configure()
     load_css()
 
+    #sidebar
+    with st.sidebar:
+         st.html("""
+            <div style="text-align: center;">
+                <img src="portfolio/profile.png" style="border-radius: 50%; width: 160px; height:s 160px; object-fit: cover; margin-bottom: 1rem;">
+                <h2>Jan Michael Aoay</h2>
+                <p style="color: var(--accent-color)">👨‍💻 Python Developer & ML Engineer </p>
+            </div>
+        """)
+        #contact 
+         with st.expander("📫 Contact", expanded=True):
+            st.html("""
+                <p>🌏 Cavite, Philippines</p>
+                <p>📞 0976 339 2122 | 0947 242 2667</p>
+                <p>✉️ aoay.janmichael@gmail.com</p>
+            """)
 
 if __name__ == '__main__':
         main()
