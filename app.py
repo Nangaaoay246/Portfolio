@@ -47,7 +47,7 @@ def sidebar():
 def social_links():
     link_html = "".join(
         f"""
-        <a href="{link['url']}" target="_blank">
+        <a href="{link['url']}" target="_blank" style="margin: 0 12px; font-size: 2rem;">
             <i class="{link['icon']}"></i>
         </a>
         """
