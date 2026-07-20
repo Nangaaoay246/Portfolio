@@ -47,7 +47,7 @@ def sidebar():
 def social_links():
     link_html = "".join(
         f"""
-        <a href="{link['url']}" target="_blank" style="margin: 0 12px; font-size: 2rem;">
+        <a href="{link['url']}" target="_blank" style="margin: 0 12px; font-size: 2rem; text-decoration: none;">
             <i class="{link['icon']}"></i>
         </a>
         """
@@ -68,6 +68,7 @@ def body():
   
     #About me
     st.write("### 👋 Hi there!")
+    st.write("")
 
 def main():
     configure()
