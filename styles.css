@@ -13,13 +13,14 @@
 }
 
 .skills-card {
-    background: white;
+    background: var(--secondary-background-color);
+    color: var(--text-color);
     border-radius: 10px;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
+    border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
     box-shadow: var(--shadow);
-    transition: all 0.3s ease;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all .3s ease;
 }
 
 .skills-card h3{
