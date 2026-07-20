@@ -6,7 +6,7 @@ def aboutMe():
     #About me
     st.header("👋 About Me", divider="green")
 
-    col1, col2, col3 = st.columns([1.3 ,0.2, 1])
+    col1, col2 = st.columns([1.5, 1] ,vertical_alignment='center')
 
     with col1:
         st.markdown(profile['info'])
@@ -24,5 +24,5 @@ def aboutMe():
             file_name="JanMichaelAoay_resume.pdf",
             mime="application/pdf")
 
-    with col3:
+    with col2:
         st.image("assets/nudaeng_laptop.jpg", width=360)

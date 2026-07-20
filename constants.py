@@ -1,7 +1,7 @@
 # Profile -------------------------------------------------------------------------------------------------------------------------------------
 profile = {
             'info':
-              """ Hi! I'm **Jan Michael**, but most people call me **Ike**. I'm the type of person who starts a "small weekend project" and 
+              """ Hi! I'm :green[**Jan Michael**], but most people call me :green[**Ike**]. I'm the type of person who starts a "small weekend project" and 
 somehow ends up learning three(?!) new frameworks along the way. I enjoy building AI applications, experimenting with 
 machine learning models, and creating software that makes everyday tasks a little easier. \n\n
 
@@ -95,3 +95,5 @@ Experience = [[":green[Philtech Inc.] | Offshore IT Services", "Pharmacy Technol
               - Used **data storytelling** techniques to communicate audience trends and campaign outcomes, enabling more informed content and outreach strategies.
               """, 
               "Facebook Page", "https://www.facebook.com/awssbgadamsonuniversity"],]
+
+
