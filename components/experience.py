@@ -1,5 +1,5 @@
 import streamlit as st
-from constants import *
+from constants import Experience
 
 
 def experience_unit(title, position, date, location, content,button_name,button_link):
