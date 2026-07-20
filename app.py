@@ -59,10 +59,14 @@ def social_links():
         """, unsafe_allow_html=True,
     )
 
+def body():
+    st.title(profile['name'])
+
 def main():
     configure()
     load_css()
     sidebar()
+    body()
 
 if __name__ == '__main__':
     main()
