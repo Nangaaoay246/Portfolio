@@ -58,4 +58,8 @@ def load_css():
     """, unsafe_allow_html=True)
 
 def main():
-    pass
+    load_css()
+
+
+if __name__ == '__main__':
+        main()
