@@ -4,6 +4,7 @@ from components.aboutMe import aboutMe
 from components.skillsTab import skillTab
 from components.experience import experienceTab
 from components.projects import projectTab
+from components.contactMe import contactTab
 
 # Configure -------------------------------------------------------------------------------------------------------------------------
 def configure():
@@ -40,5 +41,6 @@ if __name__ == '__main__':
         skillTab()
         experienceTab()
         projectTab()
+        contactTab()
 
     
