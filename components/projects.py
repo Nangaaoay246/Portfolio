@@ -12,7 +12,7 @@ def projectTab():
             <div>
                 <img src="{project['Image']}" class="project-image">
                 <div class="project-content">
-                    <h3>{project['Title']} ↗</h3>
+                    <h3>{project['Title']}</h3>
                     <p>{project['Description']}</p>
                     <span class="project-tech">{project['Tech']}</span>
                 </div>

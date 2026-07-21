@@ -26,3 +26,6 @@ def aboutMe():
 
     with col2:
         st.image("assets/profile2.png", width=360)
+    
+
+    

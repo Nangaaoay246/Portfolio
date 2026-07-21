@@ -3,7 +3,7 @@
     --secondary-color: hsl(160, 47%, 23%);
     --accent-color: #338a53;          
     --text-light: #f8fafc;             
-    --shadow: 0 4px 6px -1px rgba(25, 110, 61, 0.103);
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.15);
     --border-color: rgba(128, 128, 128, 0.25);
 }
 
