@@ -103,11 +103,11 @@ projects = [
         "Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11584685&isnumber=11584628",
         "Image": "https://raw.githubusercontent.com/Nangaaoay246/Portfolio/refs/heads/main/assets/Agrid.jpg",
         "Description": "AI-powered e-commerce platform that recommends optimal markets for farmers using clustering and geospatial analysis.",
-        "Tech": "Python • Scikit-learn • DBSCAN • Pandas",
+        "Tech": "⚙️ Python • Scikit-learn • DBSCAN • Pandas",
         "Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11584685&isnumber=11584628"
     },
     {
-        "Title": "Coming Soon 🏗️",
+        "Title": "🏗️ Coming Soon ",
         "Link": "#",
         "Image": "https://raw.githubusercontent.com/Nangaaoay246/Portfolio/refs/heads/main/assets/comingSoon.jpg",
         "Description": "I'm currently building another project focused on AI, machine learning, or data analytics. Check back soon!",
