@@ -41,5 +41,6 @@ if __name__ == '__main__':
         skillTab()
         experienceTab()
         projectTab()
+        contactTab()
 
     
