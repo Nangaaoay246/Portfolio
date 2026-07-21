@@ -12,7 +12,7 @@ an engineer can have.
               """,
             'name':'Jan Michael Aoay', 
             'title': 'Python Developer & Machine Learning Engineer',
-            'image_path': 'https://raw.githubusercontent.com/Nangaaoay246/Portfolio/refs/heads/main/assets/profile.png',
+            'image_path': 'assets/profile1.jpg',
             "location": '🌏 Cavite, Philippines',
             "email": '✉️ aoay.janmichael@gmail.com',
             "phone": '📞 0976 339 2122'
@@ -100,6 +100,7 @@ Experience = [[":green[Philtech Inc.] | Offshore IT Services", "Pharmacy Technol
 projects = [
     {
         "Title": "FinSights",
+        "Link": "_blank",
         "Image": "https://raw.githubusercontent.com/Nangaaoay246/Portfolio/refs/heads/main/assets/profile.png",
         "Description": "Financial document parser that extracts transactions from bank statements and enables semantic search using RAG.",
         "Tech": "Python • Streamlit • LangChain • FAISS",
@@ -107,6 +108,7 @@ projects = [
     },
     {
         "Title": "AGRID",
+        "Link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11584685&isnumber=11584628",
         "Image": "https://raw.githubusercontent.com/Nangaaoay246/Portfolio/refs/heads/main/assets/profile.png",
         "Description": "AI-powered e-commerce platform that recommends optimal markets for farmers using clustering and geospatial analysis.",
         "Tech": "Python • Scikit-learn • DBSCAN • Pandas",

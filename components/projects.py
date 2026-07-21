@@ -8,7 +8,7 @@ def projectTab():
 
     for project in projects:
         cards += f"""
-        <div class="project-card">
+        <div class="project-card" href={project['Link']}>
             <img src="{project['Image']}" class="project-image">
             <div class="project-content">
                 <h3>{project['Title']}</h3>

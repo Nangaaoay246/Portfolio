@@ -14,12 +14,6 @@
     gap: 20px;
 }
 
-@media (max-width: 1180px) {
-    .skills-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 .skills-card {
     background: var(--secondary-background-color);
     color: var(--text-color);
@@ -29,7 +23,6 @@
     margin-bottom: 1.5rem;
     transition: all .3s ease;
 }
-
 
 
 .skills-card:hover {
@@ -83,4 +76,13 @@
 .project-tech {
     color: var(--primary-color);
     font-weight: 600;
+}
+
+@media (max-width: 1180px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 }

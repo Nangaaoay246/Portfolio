@@ -25,4 +25,4 @@ def aboutMe():
             mime="application/pdf")
 
     with col2:
-        st.image("assets/nudaeng_laptop.jpg", width=360)
+        st.image("assets\profile2.png", width=360)
