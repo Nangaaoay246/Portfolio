@@ -12,7 +12,7 @@ an engineer can have.
               """,
             'name':'Jan Michael Aoay', 
             'title': 'Python Developer & Machine Learning Engineer',
-            'image_path': 'https://github.com/Nangaaoay246/Portfolio/blob/main/assets/profile2.png?raw=true',
+            'image_path': 'https://github.com/Nangaaoay246/Portfolio/blob/main/assets/profile1.jpg?raw=true',
             "location": '🌏 Cavite, Philippines',
             "email": '✉️ aoay.janmichael@gmail.com',
             "phone": '📞 0976 339 2122'
