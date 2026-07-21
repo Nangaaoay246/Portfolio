@@ -3,7 +3,7 @@
     --secondary-color: hsl(160, 47%, 23%);
     --accent-color: #338a53;          
     --text-light: #f8fafc;             
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.15);
+    --shadow: 0 4px 6px -1px rgba(25, 110, 61, 0.103);
     --border-color: rgba(128, 128, 128, 0.25);
 }
 
@@ -55,12 +55,19 @@
     border-radius: 10px;
     overflow: hidden;
     background: var(--secondary-background-color);
-    box-shadow: var(--shadow);
     transition: .3s;
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.project-card:visited {
+    color: inherit;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.20);
 }
 
 .project-image {
@@ -78,6 +85,17 @@
     font-weight: 600;
 }
 
+a.project-card,
+a.project-card:link,
+a.project-card:visited,
+a.project-card:hover,
+a.project-card:active,
+a.project-card:focus {
+    display: block;
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
 @media (max-width: 1180px) {
     .skills-grid {
         grid-template-columns: 1fr;
@@ -86,3 +104,4 @@
         grid-template-columns: 1fr;
     }
 }
+

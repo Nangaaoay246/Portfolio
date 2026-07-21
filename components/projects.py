@@ -8,16 +8,17 @@ def projectTab():
 
     for project in projects:
         cards += f"""
-        <div class="project-card" href={project['Link']}>
-            <img src="{project['Image']}" class="project-image">
-            <div class="project-content">
-                <h3>{project['Title']}</h3>
-                <p>{project['Description']}</p>
-                <span class="project-tech">{project['Tech']}</span>
+        <a href="{project['Link']}" target="_blank" class="project-card">
+            <div>
+                <img src="{project['Image']}" class="project-image">
+                <div class="project-content">
+                    <h3>{project['Title']} ↗</h3>
+                    <p>{project['Description']}</p>
+                    <span class="project-tech">{project['Tech']}</span>
+                </div>
             </div>
-        </div>
+        </a>
         """
-
     st.markdown(
         f"""
         <div class="projects-grid">
@@ -26,3 +27,4 @@ def projectTab():
         """,
         unsafe_allow_html=True,
     )
+
