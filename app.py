@@ -14,6 +14,13 @@ def configure():
         layout='wide',
         initial_sidebar_state='expanded'
     ) 
+    home = st.Page("app.py", title="Home", default=True)
+    thank_you = st.Page("pages/1_Thank_You.py", title="Thank You")
+    pg = st.navigation(
+    [home, thank_you],
+    position="hidden"
+    )
+    pg.run()
 
 # Load CSS -------------------------------------------------------------------------------------------------------------------------
 def load_css():
