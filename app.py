@@ -49,5 +49,6 @@ if __name__ == '__main__':
         experienceTab()
         projectTab()
         contactTab()
+        st.switch_page("pages/1_Thank_You.py")
 
     
